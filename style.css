@@ -5,7 +5,6 @@ body {
   margin: 0;
   padding: 20px;
 }
-
 .floating-top {
   position: fixed;
   bottom: 20px;
@@ -16,4 +15,5 @@ body {
   text-decoration: none;
   border-radius: 4px;
   font-size: 0.85rem;
+  z-index: 9999; /* Ensures it floats on top of everything */
 }
